@@ -1,0 +1,149 @@
+.page {
+  color: #292929;
+  scroll-behavior: smooth;
+  font-family: Inter, serif;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.page__body {
+  margin: 0;
+}
+
+.page__menu {
+  opacity: 0;
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.page__menu:target {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.header {
+  box-sizing: border-box;
+  background-image: url("header-bg-mobile.2d58f869.png");
+  background-position: center;
+  background-size: cover;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  display: flex;
+}
+
+.header__waves {
+  background-image: url("sound-waves.47f037b6.png");
+  width: 48px;
+  height: 57px;
+  margin-bottom: 16px;
+}
+
+.header__title {
+  letter-spacing: -1.5px;
+  margin: 0;
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 800;
+  line-height: 100%;
+}
+
+.header__bottom {
+  padding: 0 20px 40px;
+}
+
+.top-bar {
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 20px;
+  display: flex;
+}
+
+.top-bar__icons {
+  gap: 24px;
+  display: flex;
+}
+
+.top-bar__logo {
+  display: flex;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  display: block;
+}
+
+.icon--phone {
+  background-image: url("icon-phone.217bf46b.png");
+}
+
+.icon--menu {
+  background-image: url("icon-burger-menu.95976320.png");
+}
+
+.icon--close {
+  background-image: url("icon-close.6f3ede5c.png");
+}
+
+.menu {
+  box-sizing: border-box;
+  text-transform: uppercase;
+  background-color: #e5e5e5;
+  height: 100vh;
+  font-weight: 700;
+}
+
+.menu__top {
+  margin-bottom: 32px;
+}
+
+.menu__nav {
+  margin-bottom: 40px;
+}
+
+.menu__content {
+  padding-inline: 20px;
+}
+
+.menu__phone--number {
+  color: inherit;
+  margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 27px;
+  text-decoration: none;
+  display: block;
+}
+
+.menu_call-to-order {
+  letter-spacing: 2px;
+  color: inherit;
+  border-bottom: 1px solid #292929;
+  width: fit-content;
+  padding-bottom: 7px;
+  font-size: 12px;
+  line-height: 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.nav__link {
+  color: inherit;
+  letter-spacing: 2px;
+  font-size: 22px;
+  line-height: 22px;
+  text-decoration: none;
+}
+
+.nav__list {
+  flex-direction: column;
+  gap: 32px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+/*# sourceMappingURL=index.4ee4707b.css.map */
